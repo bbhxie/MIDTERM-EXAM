@@ -1,0 +1,68 @@
+* {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.background {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+.front, .back {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.front {
+    background-color: #f7f7f7;
+}
+.back {
+    background-color: #a66d38e1;
+    color: white;
+    height: 650px;
+}
+.input-form h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.authenCode label{
+    float: left;
+    padding-left: 70px;
+}
+.authenCode input {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* Custom button styling */
+.authenButton {
+    background-color: #6B2E00;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.authenButton:hover {
+    background-color: #8b4000;
+}

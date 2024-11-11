@@ -1,0 +1,85 @@
+.header {
+    background-color: #a20e0edc;
+    width: 100%;
+    height: 700%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: white;
+    padding: 10px 20px;
+}
+
+h3 {
+    margin: 0;
+    font-family: "Concert One", sans-serif;
+}
+
+.right-container {
+    display: flex;
+    align-items: center; 
+}
+
+.search input {
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    margin-right: 10px; 
+}
+
+.header svg {
+    color: white;
+    margin-right: 10px; 
+}
+
+.btn-primary {
+    padding: 6px 12px;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center; 
+    background-color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.navigator a {
+    display: inline-flex;
+    text-align: center;
+    padding-inline: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    margin-top: 10px;
+}
+
+.image1 {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center; /* Centers all images horizontally */
+    margin-top: 100px; /* Adjusts the spacing from the top */
+    gap: 20px; /* Adds space between the images */
+}
+
+.box {
+    text-align: center; /* Centers the content within each box */
+}
+
+.box img {
+    max-width: 100%; /* Makes the images responsive */
+    height: auto;
+}

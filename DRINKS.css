@@ -1,0 +1,97 @@
+
+
+.body{
+    font-family: 'Afacad' ,'Cuprum'sans-serif;
+    background-color: #dfe1e1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+
+
+.navbar1{
+    background-color: #A66E38;
+    padding: 0.5rem 1rem;
+    
+   
+  
+}
+
+.title{
+    color: black;
+    text-align: left;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+
+
+
+.list img{
+    width: 150px;
+    height: auto;
+}
+
+/* Make #productList a flex container to align items horizontally */
+#productList {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to a new row if needed */
+    gap: 40px; /* Space between each product item */
+    justify-content: center;
+}
+
+/* Style each product item to have consistent sizing */
+#productList .productItem {
+    width:150px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column; /* Keeps content of each product stacked vertically */
+    align-items: left; /* Centers content horizontally within each item */
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+
+/* footer */
+
+.footer{
+    background-color:#A66E38;
+    margin-top: 30%;
+}
+
+.second{
+    margin-left: 10%;
+    color: white;
+    margin-left: 10%;
+}
+
+.num{
+    margin-top: -10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.so{
+  text-align: center;
+  margin-left: 11%;
+  
+}
+
+.so1{
+    margin-left: 34%;
+    
+    
+  }
+
+.all{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.year{
+    text-align: center;
+    margin-left: 5%;
+}

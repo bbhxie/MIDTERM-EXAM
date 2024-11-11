@@ -1,0 +1,82 @@
+
+
+.body{
+    font-family: 'Afacad' ,'Cuprum'sans-serif;
+    background-color: #dfe1e1;
+}
+
+
+.navbar1{
+    background-color: #A66E38;
+    position: absolute;
+  
+}
+
+.up{
+    background-image: url(/IMG/lav.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 30vh;   
+    
+}
+
+.pr{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.gradient-row {
+    background: linear-gradient(45deg, #ff6b6b, #f7b733);
+    height: 100vh; /* Adjust the height as needed */
+}
+.row1{
+    background-color: #A66E38;
+    justify-content: center;
+    width: 20%;
+    height: 25vh;
+    position: absolute;
+}
+
+/* footer */
+  
+.footer{
+    background-color:#A66E38;
+    margin-top: 30%;
+}
+
+.second{
+    margin-left: 10%;
+    color: white;
+    margin-left: 10%;
+}
+
+.num{
+    margin-top: -10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.so{
+  text-align: center;
+  margin-left: 11%;
+  
+}
+
+.so1{
+    margin-left: 34%;
+    
+    
+  }
+
+.all{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.year{
+    text-align: center;
+    margin-left: 5%;
+}

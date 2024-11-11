@@ -1,0 +1,29 @@
+.body{
+    /* overflow: hidden; */
+    background-attachment: fixed;
+}
+
+.first{
+    background-color: #A66E38;
+    width: 15%;
+    height: 90%;
+}
+
+.logo{
+   padding-top: 5%;
+    margin-left: 20%;
+}
+
+.first1{
+    color: white;
+    margin-top: 3%;
+    position: absolute;
+    margin-left:3%;
+    font-size: 25px;
+}
+
+.second{
+    margin-left: 200%;
+    font-size: 25px;
+    
+}

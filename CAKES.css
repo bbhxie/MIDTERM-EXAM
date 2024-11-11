@@ -1,0 +1,145 @@
+
+
+.body{
+    font-family: 'Afacad' ,'Cuprum'sans-serif;
+    background-color: #dfe1e1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+
+.navbar1{
+    background-color: #A66E38;
+    padding: 0.5rem 1rem;
+    
+   
+  
+}
+
+.up{
+    background-image: url(/IMG/lav.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 30vh;   
+    
+}
+
+.pr{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.label{
+    text-align: center;
+    font-weight: bold;
+    margin-right:-5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 40px;
+    
+}
+.container{
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+.col{
+    margin-left: 10%;
+    justify-content:center;  
+}
+
+.outerbox img{
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #A66E38;
+    margin: 0;
+    
+ }
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    
+
+}
+
+.price{
+    font-size: 30px;
+}
+
+.buy{
+    width: 25%;
+    background-color: #A66E38;
+    color: white;
+    border-radius: black;
+    font-weight: bold; 
+}
+
+.buy:hover {
+    background-color: wheat; /* Darker green on hover */
+    transform: scale(1.05);    /* Slightly grow the button */
+}
+.image-button {
+    background: transparent; /* No background */
+    border: none; /* No border */
+    padding: 0; /* Remove padding */
+    cursor: pointer; /* Change cursor on hover */
+    outline: none; /* Remove outline */
+}
+.vector1{
+    margin-right: 10%;
+}
+
+
+.vector:hover, .vector1:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    filter: brightness(1.2); /* Brighten the image on hover */
+    
+}
+
+
+/* footer */
+
+.footer{
+    background-color:#A66E38;
+    margin-top: 30%;
+}
+
+.second{
+    margin-left: 10%;
+    color: white;
+    margin-left: 10%;
+}
+
+.num{
+    margin-top: -10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.so{
+  text-align: center;
+  margin-left: 11%;
+  
+}
+
+.so1{
+    margin-left: 34%;
+ 
+    
+    
+  }
+
+.all{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.year{
+    text-align: center;
+    margin-left: 5%;
+}

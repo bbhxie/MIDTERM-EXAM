@@ -1,0 +1,205 @@
+:root {
+
+    --bs-brown: #A66E38;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #28a745;
+    --bs-teal: #20c997;
+    --bs-cyan: #17a2b8;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    --bs-info: #17a2b8;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+
+}
+
+body {
+    font-family: 'Afacad', 'Cuprum', sans-serif;
+    background-color: #dfe1e1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.navbar1{
+background-color: #A66E38;
+
+}
+
+
+.hero {
+background-image: url('./IMG/hh.jpg');
+background-size: cover;
+background-position: center;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-attachment: fixed;
+}
+
+.motto{
+color: white;
+font-size:50px;
+margin-top: 5%;
+margin-bottom: 7%;
+text-align: center;
+font-style: italic;
+
+
+
+}
+
+.bt{
+background-color: #A66E38;
+bottom: unset;
+color: white;
+
+border-color: white;
+width: 10%;
+height: 12%;
+margin-top: 10%;
+margin-left: 65%;
+font-weight: bold;
+
+
+}
+
+.bt:hover{
+background-color: burlywood; /* Darker green on hover */
+transform: scale(1.05);    /* Slightly grow the button */
+}
+
+.hero2{
+margin-top: 50%;
+margin-left: 80%;
+}
+
+
+.pic{
+color: black;
+text-align: center;
+
+}
+
+.col1{
+margin-left: 10%;
+
+}
+
+/* .about{
+margin-left: 3%;
+
+
+} */
+
+.about{
+margin-top: 50%;
+margin-right: -5%;
+
+}
+
+.label{
+margin-right: 70%;
+text-align: center;
+
+}
+
+.ab{
+width: 50px;
+margin-right:50%;
+
+}
+
+.u{
+
+text-align: left;
+font-weight: lighter;
+justify-content: center;
+margin-right: 5%;
+
+
+
+}
+.nn{
+background-color:#A66E38 ;
+color: white;
+width: 20%;
+height: 3%;
+font-size: 15px;
+font-weight: bold;
+border-radius: 15%;
+margin-bottom: 15%;
+margin-right: 13%;
+}
+
+.nn:hover{
+background-color:burlywood; /* Darker green on hover */
+transform: scale(1.05);    /* Slightly grow the button */
+}
+
+/* footer */
+
+.footer{
+background-color:#A66E38;
+margin-top: 30%;
+}
+
+.second{
+margin-left: 10%;
+color: white;
+margin-left: 10%;
+}
+
+.num{
+margin-top: -10%;
+text-align: center;
+}
+
+.so{
+text-align: center;
+
+}
+
+.so1{
+text-align: center;
+
+}
+
+.all{
+text-align: center;
+}
+
+.year{
+text-align: center;
+}
+
+.social-icon {
+width: 15%;
+transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
+}
+
+.social-icon:hover {
+transform: scale(1.1); /* Scale up the icon */
+opacity: 0.8; /* Slightly fade the icon */
+}
+
+
+
